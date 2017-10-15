@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF2C357F1DF321D6002C07AE /* RHPresenters.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2C357E1DF321D6002C07AE /* RHPresenters.swift */; };
+		AF4AE0CC1DB3C62F0072F488 /* RHFlowControllersOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4AE0C91DB3C62F0072F488 /* RHFlowControllersOperators.swift */; };
+		AF4AE0CD1DB3C62F0072F488 /* RHFlowCoordinatorBaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4AE0CA1DB3C62F0072F488 /* RHFlowCoordinatorBaseProtocol.swift */; };
+		AF4AE0CE1DB3C62F0072F488 /* RHFlowCoordinatorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4AE0CB1DB3C62F0072F488 /* RHFlowCoordinatorDelegate.swift */; };
+		AF4AE0D01DB3C6670072F488 /* RHFlowControllerStartProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4AE0CF1DB3C6670072F488 /* RHFlowControllerStartProtocol.swift */; };
+		AF7A36D91DB0DD5000BECDB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7A36CB1DB0DD5000BECDB0 /* AppDelegate.swift */; };
+		AF7A36DA1DB0DD5000BECDB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF7A36CC1DB0DD5000BECDB0 /* Assets.xcassets */; };
+		AF7A36DB1DB0DD5000BECDB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF7A36CD1DB0DD5000BECDB0 /* LaunchScreen.storyboard */; };
+		AF7A36DC1DB0DD5000BECDB0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF7A36D01DB0DD5000BECDB0 /* Info.plist */; };
+		AF7A36DD1DB0DD5000BECDB0 /* RHCustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7A36D11DB0DD5000BECDB0 /* RHCustomNavigationController.swift */; };
+		AF7A36F31DB0DE2500BECDB0 /* RHMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7A36EB1DB0DE2500BECDB0 /* RHMainViewController.swift */; };
+		AF7A36F41DB0DE2500BECDB0 /* RHLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7A36EC1DB0DE2500BECDB0 /* RHLoginViewController.swift */; };
+		AF7A36FC1DB0DE9D00BECDB0 /* RHLoginFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7A36F71DB0DE9D00BECDB0 /* RHLoginFlowCoordinator.swift */; };
+		AF7A36FD1DB0DE9D00BECDB0 /* RHMainFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7A36F91DB0DE9D00BECDB0 /* RHMainFlowCoordinator.swift */; };
+		AF7A37041DB1703800BECDB0 /* RHDetailsFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7A37031DB1703800BECDB0 /* RHDetailsFlowCoordinator.swift */; };
+		AF7A37061DB1718300BECDB0 /* RHDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7A37051DB1718300BECDB0 /* RHDetailsViewController.swift */; };
+		AF7A370B1DB2512D00BECDB0 /* RHDebugHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7A370A1DB2512D00BECDB0 /* RHDebugHelpers.swift */; };
+		AF7A370D1DB25D0F00BECDB0 /* RHBaseFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7A370C1DB25D0F00BECDB0 /* RHBaseFlowCoordinator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF2C357E1DF321D6002C07AE /* RHPresenters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RHPresenters.swift; sourceTree = "<group>"; };
+		AF4AE0C91DB3C62F0072F488 /* RHFlowControllersOperators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RHFlowControllersOperators.swift; sourceTree = "<group>"; };
+		AF4AE0CA1DB3C62F0072F488 /* RHFlowCoordinatorBaseProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RHFlowCoordinatorBaseProtocol.swift; sourceTree = "<group>"; };
+		AF4AE0CB1DB3C62F0072F488 /* RHFlowCoordinatorDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RHFlowCoordinatorDelegate.swift; sourceTree = "<group>"; };
+		AF4AE0CF1DB3C6670072F488 /* RHFlowControllerStartProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RHFlowControllerStartProtocol.swift; sourceTree = "<group>"; };
+		AF6751CB1D1EC14600E8520E /* FlowController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF7A36CB1DB0DD5000BECDB0 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF7A36CC1DB0DD5000BECDB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF7A36CE1DB0DD5000BECDB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF7A36D01DB0DD5000BECDB0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF7A36D11DB0DD5000BECDB0 /* RHCustomNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RHCustomNavigationController.swift; sourceTree = "<group>"; };
+		AF7A36EB1DB0DE2500BECDB0 /* RHMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RHMainViewController.swift; sourceTree = "<group>"; };
+		AF7A36EC1DB0DE2500BECDB0 /* RHLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RHLoginViewController.swift; sourceTree = "<group>"; };
+		AF7A36F71DB0DE9D00BECDB0 /* RHLoginFlowCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RHLoginFlowCoordinator.swift; sourceTree = "<group>"; };
+		AF7A36F91DB0DE9D00BECDB0 /* RHMainFlowCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RHMainFlowCoordinator.swift; sourceTree = "<group>"; };
+		AF7A37031DB1703800BECDB0 /* RHDetailsFlowCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RHDetailsFlowCoordinator.swift; sourceTree = "<group>"; };
+		AF7A37051DB1718300BECDB0 /* RHDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RHDetailsViewController.swift; sourceTree = "<group>"; };
+		AF7A370A1DB2512D00BECDB0 /* RHDebugHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RHDebugHelpers.swift; sourceTree = "<group>"; };
+		AF7A370C1DB25D0F00BECDB0 /* RHBaseFlowCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RHBaseFlowCoordinator.swift; path = ../FlowCoordinators/RHBaseFlowCoordinator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF6751C81D1EC14600E8520E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF2C357D1DF32193002C07AE /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				AF2C357E1DF321D6002C07AE /* RHPresenters.swift */,
+			);
+			name = Presenters;
+			path = Source/Presenters;
+			sourceTree = SOURCE_ROOT;
+		};
+		AF4AE0C81DB3C62F0072F488 /* FlowCoordinatorMechanism */ = {
+			isa = PBXGroup;
+			children = (
+				AF7A370C1DB25D0F00BECDB0 /* RHBaseFlowCoordinator.swift */,
+				AF4AE0C91DB3C62F0072F488 /* RHFlowControllersOperators.swift */,
+				AF4AE0CA1DB3C62F0072F488 /* RHFlowCoordinatorBaseProtocol.swift */,
+				AF4AE0CB1DB3C62F0072F488 /* RHFlowCoordinatorDelegate.swift */,
+				AF4AE0CF1DB3C6670072F488 /* RHFlowControllerStartProtocol.swift */,
+			);
+			name = FlowCoordinatorMechanism;
+			path = Source/FlowCoordinatorMechanism;
+			sourceTree = SOURCE_ROOT;
+		};
+		AF6751C21D1EC14600E8520E = {
+			isa = PBXGroup;
+			children = (
+				AF7A36CA1DB0DD5000BECDB0 /* Source */,
+				AF6751CC1D1EC14600E8520E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF6751CC1D1EC14600E8520E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF6751CB1D1EC14600E8520E /* FlowController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF7A36CA1DB0DD5000BECDB0 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				AF7A37091DB2511A00BECDB0 /* Helpers */,
+				AF7A36E51DB0DE2500BECDB0 /* FlowCoordinators */,
+				AF7A36EA1DB0DE2500BECDB0 /* ViewControllers */,
+				AF7A36CB1DB0DD5000BECDB0 /* AppDelegate.swift */,
+				AF7A36CC1DB0DD5000BECDB0 /* Assets.xcassets */,
+				AF7A36CD1DB0DD5000BECDB0 /* LaunchScreen.storyboard */,
+				AF7A36D01DB0DD5000BECDB0 /* Info.plist */,
+				AF7A36D11DB0DD5000BECDB0 /* RHCustomNavigationController.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		AF7A36E51DB0DE2500BECDB0 /* FlowCoordinators */ = {
+			isa = PBXGroup;
+			children = (
+				AF2C357D1DF32193002C07AE /* Presenters */,
+				AF4AE0C81DB3C62F0072F488 /* FlowCoordinatorMechanism */,
+				AF7A36F81DB0DE9D00BECDB0 /* MainFlowcoordinator */,
+				AF7A36F61DB0DE9D00BECDB0 /* Login */,
+				AF7A37021DB1702600BECDB0 /* SecondView */,
+			);
+			path = FlowCoordinators;
+			sourceTree = "<group>";
+		};
+		AF7A36EA1DB0DE2500BECDB0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AF7A36EB1DB0DE2500BECDB0 /* RHMainViewController.swift */,
+				AF7A36EC1DB0DE2500BECDB0 /* RHLoginViewController.swift */,
+				AF7A37051DB1718300BECDB0 /* RHDetailsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AF7A36F61DB0DE9D00BECDB0 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				AF7A36F71DB0DE9D00BECDB0 /* RHLoginFlowCoordinator.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		AF7A36F81DB0DE9D00BECDB0 /* MainFlowcoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				AF7A36F91DB0DE9D00BECDB0 /* RHMainFlowCoordinator.swift */,
+			);
+			path = MainFlowcoordinator;
+			sourceTree = "<group>";
+		};
+		AF7A37021DB1702600BECDB0 /* SecondView */ = {
+			isa = PBXGroup;
+			children = (
+				AF7A37031DB1703800BECDB0 /* RHDetailsFlowCoordinator.swift */,
+			);
+			name = SecondView;
+			sourceTree = "<group>";
+		};
+		AF7A37091DB2511A00BECDB0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AF7A370A1DB2512D00BECDB0 /* RHDebugHelpers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF6751CA1D1EC14600E8520E /* FlowController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF6751DD1D1EC14600E8520E /* Build configuration list for PBXNativeTarget "FlowController" */;
+			buildPhases = (
+				AF6751C71D1EC14600E8520E /* Sources */,
+				AF6751C81D1EC14600E8520E /* Frameworks */,
+				AF6751C91D1EC14600E8520E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlowController;
+			productName = FlowController;
+			productReference = AF6751CB1D1EC14600E8520E /* FlowController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF6751C31D1EC14600E8520E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Robert;
+				TargetAttributes = {
+					AF6751CA1D1EC14600E8520E = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0810;
+					};
+				};
+			};
+			buildConfigurationList = AF6751C61D1EC14600E8520E /* Build configuration list for PBXProject "FlowController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF6751C21D1EC14600E8520E;
+			productRefGroup = AF6751CC1D1EC14600E8520E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF6751CA1D1EC14600E8520E /* FlowController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF6751C91D1EC14600E8520E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF7A36DA1DB0DD5000BECDB0 /* Assets.xcassets in Resources */,
+				AF7A36DB1DB0DD5000BECDB0 /* LaunchScreen.storyboard in Resources */,
+				AF7A36DC1DB0DD5000BECDB0 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF6751C71D1EC14600E8520E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF7A36FC1DB0DE9D00BECDB0 /* RHLoginFlowCoordinator.swift in Sources */,
+				AF7A36F31DB0DE2500BECDB0 /* RHMainViewController.swift in Sources */,
+				AF4AE0D01DB3C6670072F488 /* RHFlowControllerStartProtocol.swift in Sources */,
+				AF7A370B1DB2512D00BECDB0 /* RHDebugHelpers.swift in Sources */,
+				AF7A37041DB1703800BECDB0 /* RHDetailsFlowCoordinator.swift in Sources */,
+				AF7A36FD1DB0DE9D00BECDB0 /* RHMainFlowCoordinator.swift in Sources */,
+				AF4AE0CD1DB3C62F0072F488 /* RHFlowCoordinatorBaseProtocol.swift in Sources */,
+				AF7A370D1DB25D0F00BECDB0 /* RHBaseFlowCoordinator.swift in Sources */,
+				AF7A36DD1DB0DD5000BECDB0 /* RHCustomNavigationController.swift in Sources */,
+				AF7A37061DB1718300BECDB0 /* RHDetailsViewController.swift in Sources */,
+				AF4AE0CC1DB3C62F0072F488 /* RHFlowControllersOperators.swift in Sources */,
+				AF2C357F1DF321D6002C07AE /* RHPresenters.swift in Sources */,
+				AF7A36F41DB0DE2500BECDB0 /* RHLoginViewController.swift in Sources */,
+				AF7A36D91DB0DD5000BECDB0 /* AppDelegate.swift in Sources */,
+				AF4AE0CE1DB3C62F0072F488 /* RHFlowCoordinatorDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF7A36CD1DB0DD5000BECDB0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF7A36CE1DB0DD5000BECDB0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF6751DB1D1EC14600E8520E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF6751DC1D1EC14600E8520E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF6751DE1D1EC14600E8520E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Source/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = x.FlowController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AF6751DF1D1EC14600E8520E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Source/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = x.FlowController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF6751C61D1EC14600E8520E /* Build configuration list for PBXProject "FlowController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF6751DB1D1EC14600E8520E /* Debug */,
+				AF6751DC1D1EC14600E8520E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF6751DD1D1EC14600E8520E /* Build configuration list for PBXNativeTarget "FlowController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF6751DE1D1EC14600E8520E /* Debug */,
+				AF6751DF1D1EC14600E8520E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF6751C31D1EC14600E8520E /* Project object */;
+}
