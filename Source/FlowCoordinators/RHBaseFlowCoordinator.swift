@@ -8,9 +8,9 @@ class RHBaseFlowCoordinator: RHObjectDebug, RHFlowCoordinatorBaseProtocol {
     weak var delegate: RHFlowCoordinatorDelegate?
     var childCoordinators = [RHFlowCoordinatorBaseProtocol]()
     
-    fileprivate(set) weak var navController: RHCustomNavigationController?
+    fileprivate(set) unowned var navController: RHCustomNavigationController
     
-    init(withNavController navController: RHCustomNavigationController?) {
+    init(withNavController navController: RHCustomNavigationController) {
         self.navController = navController
         
         super.init()

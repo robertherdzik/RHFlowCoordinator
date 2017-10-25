@@ -5,13 +5,13 @@
 
 import UIKit
 
-protocol RHMainViewControllerDelegate: class {
+protocol RHMainViewCoordinatorDelegate: class {
     func nextViewController()
 }
 
 class RHMainViewController: RHUIViewControllerDebug {
     
-    weak var delegate: RHMainViewControllerDelegate?
+    weak var delegate: RHMainViewCoordinatorDelegate?
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)

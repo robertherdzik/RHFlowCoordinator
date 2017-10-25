@@ -108,7 +108,6 @@
 				AF7A36CC1DB0DD5000BECDB0 /* Assets.xcassets */,
 				AF7A36CD1DB0DD5000BECDB0 /* LaunchScreen.storyboard */,
 				AF7A36D01DB0DD5000BECDB0 /* Info.plist */,
-				AF7A36D11DB0DD5000BECDB0 /* RHCustomNavigationController.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -116,6 +115,7 @@
 		AF7A36E51DB0DE2500BECDB0 /* FlowCoordinators */ = {
 			isa = PBXGroup;
 			children = (
+				AF7A36D11DB0DD5000BECDB0 /* RHCustomNavigationController.swift */,
 				AF2C357D1DF32193002C07AE /* Presenters */,
 				AF4AE0C81DB3C62F0072F488 /* FlowCoordinatorMechanism */,
 				AF7A36F81DB0DE9D00BECDB0 /* MainFlowcoordinator */,

@@ -12,11 +12,11 @@ class RHMainFlowCoordinator: RHBaseFlowCoordinator, RHFlowControllerStartProtoco
         firstVC?.title = "first"
         firstVC?.delegate = self
         
-        navController?.pushViewController(firstVC!, animated: false)
+        navController.pushViewController(firstVC!, animated: false)
     }
 }
 
-extension RHMainFlowCoordinator: RHMainViewControllerDelegate {
+extension RHMainFlowCoordinator: RHMainViewCoordinatorDelegate {
     
     func nextViewController() {
         let loginCoordinator = RHLoginFlowCoordinator(withNavController: navController)

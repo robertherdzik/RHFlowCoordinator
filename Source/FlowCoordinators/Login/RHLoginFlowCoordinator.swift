@@ -6,18 +6,14 @@
 class RHLoginFlowCoordinator: RHBaseFlowCoordinator, RHFlowControllerStartProtocol {
     
     func start() {
-        let loginVC = RHLoginViewController()
-        loginVC.title = "login"
-        loginVC.delegate = self
-        
-        navController?.pushViewController(loginVC, animated: true)
+        RHLoginViewPresenter.present(withDelegate: self, onNavigationStack: navController)
     }
 }
 
 extension RHLoginFlowCoordinator: RHLoginViewControllerDelegate {
     
     func showDetails() {
-        let detailsViewCoordinator = RHDetailsFlowCoordinator(withNavController: navController!)
+        let detailsViewCoordinator = RHDetailsFlowCoordinator(withNavController: navController)
         detailsViewCoordinator.delegate = self
         detailsViewCoordinator.start()
         

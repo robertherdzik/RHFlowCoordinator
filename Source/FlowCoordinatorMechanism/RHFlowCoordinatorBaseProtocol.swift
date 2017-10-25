@@ -6,7 +6,7 @@
 protocol RHFlowCoordinatorBaseProtocol: class {
  
     weak var delegate: RHFlowCoordinatorDelegate? { get set }
-    weak var navController: RHCustomNavigationController? { get }
+    unowned var navController: RHCustomNavigationController { get }
     var childCoordinators: [RHFlowCoordinatorBaseProtocol] { get set }
     
     func bindPopNavigationCallback()
@@ -18,15 +18,27 @@ protocol RHFlowCoordinatorBaseProtocol: class {
 extension RHFlowCoordinatorBaseProtocol {
     
     func add(coordinator: RHFlowCoordinatorBaseProtocol) {
-        childCoordinators += coordinator
+        childCoordinators.append(coordinator)
     }
     
     func remove(coordinator: RHFlowCoordinatorBaseProtocol) {
-        childCoordinators -= coordinator
+//        childCoordinators = childCoordinators.filter({ $0 === coordinator} )
+        var indexToRemove: Int?
+        for index in 0..<childCoordinators.count {
+            let currentCoordinator = childCoordinators[index]
+            if currentCoordinator === coordinator {
+                print("🚨")
+                indexToRemove = index
+            }
+        }
+        
+        if let indexToRemove = indexToRemove {
+            childCoordinators.remove(at: indexToRemove)
+        }
     }
     
     func bindPopNavigationCallback() {
-        navController?.willPopViewControllerCallback = { [weak self] in
+        navController.willPopViewControllerCallback = { [weak self] in
             guard let sSelf = self else { return }
             
             sSelf.delegate?.workDone(withCoordinator: sSelf)
