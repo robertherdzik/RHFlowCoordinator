@@ -18,23 +18,11 @@ protocol RHFlowCoordinatorBaseProtocol: class {
 extension RHFlowCoordinatorBaseProtocol {
     
     func add(coordinator: RHFlowCoordinatorBaseProtocol) {
-        childCoordinators.append(coordinator)
+        childCoordinators += coordinator
     }
     
     func remove(coordinator: RHFlowCoordinatorBaseProtocol) {
-//        childCoordinators = childCoordinators.filter({ $0 === coordinator} )
-        var indexToRemove: Int?
-        for index in 0..<childCoordinators.count {
-            let currentCoordinator = childCoordinators[index]
-            if currentCoordinator === coordinator {
-                print("🚨")
-                indexToRemove = index
-            }
-        }
-        
-        if let indexToRemove = indexToRemove {
-            childCoordinators.remove(at: indexToRemove)
-        }
+        childCoordinators -= coordinator
     }
     
     func bindPopNavigationCallback() {

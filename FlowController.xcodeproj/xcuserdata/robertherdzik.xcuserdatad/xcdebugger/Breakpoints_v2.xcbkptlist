@@ -9,8 +9,88 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
+            filePath = "Source/FlowCoordinatorMechanism/RHFlowCoordinatorBaseProtocol.swift"
+            timestampString = "530656626.501478"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "bindPopNavigationCallback()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
             filePath = "Source/FlowCoordinators/RHBaseFlowCoordinator.swift"
-            timestampString = "530643076.187508"
+            timestampString = "530656657.314604"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "init(withNavController:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/FlowCoordinatorMechanism/RHFlowCoordinatorBaseProtocol.swift"
+            timestampString = "530656695.743742"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "bindPopNavigationCallback()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(extension in FlowController):FlowController.RHFlowCoordinatorBaseProtocol.bindPopNavigationCallback() -&gt; ()"
+                  moduleName = "FlowController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/robertherdzik/Documents/Workspace/Git/RHFlowCoordinator/RHFlowCoordinator/Source/FlowCoordinatorMechanism/RHFlowCoordinatorBaseProtocol.swift"
+                  timestampString = "530656695.74775"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in (extension in FlowController):FlowController.RHFlowCoordinatorBaseProtocol.bindPopNavigationCallback() -&gt; ()"
+                  moduleName = "FlowController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/robertherdzik/Documents/Workspace/Git/RHFlowCoordinator/RHFlowCoordinator/Source/FlowCoordinatorMechanism/RHFlowCoordinatorBaseProtocol.swift"
+                  timestampString = "530656695.749258"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "31">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/FlowCoordinators/RHBaseFlowCoordinator.swift"
+            timestampString = "530656760.709828"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "25"
